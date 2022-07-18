@@ -1,0 +1,45 @@
+name = input("what is your name ")
+
+print(name)
+
+calculate_product = input("what you want to calculate +,-,×,÷ ? ")
+
+if calculate_product == "+":
+
+  print(name)
+
+  frist_number = input('type your frist number that you calculate ')
+
+  secend_number = input('type your 2nd number that you calculate ')
+
+  print(int (frist_number) + int (secend_number))
+
+if calculate_product == "-":
+
+  print(name)
+
+  frist_number = input('type your frist number that you calculate ')
+
+  secend_number = input('type your 2nd number that you calculate ')
+
+  print(int (frist_number) - int (secend_number))
+
+if calculate_product == "×":
+
+  print(name)
+
+  frist_number = input('type your frist number that you calculate ')
+
+  secend_number = input('type your 2nd number that you calculate ')
+
+  print(int (frist_number) * int (secend_number))
+
+if calculate_product == "÷":
+
+  print(name)
+
+  frist_number = input('type your frist number that you calculate ')
+
+  secend_number = input('type your 2nd number that you calculate ')
+
+  print(int (frist_number) / int (secend_number))
